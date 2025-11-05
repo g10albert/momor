@@ -4,7 +4,7 @@ document.addEventListener("DOMContentLoaded", function () {
   // =========================================
 
   const contadorMensagens = document.getElementById("contador-mensagens");
-  const valorAlvo = 60000; // O número total de mensagens que você definiu
+  const valorAlvo = 70000; // O número total de mensagens que você definiu
   let inicioContagem = 0;
 
   // Função para animar o contador

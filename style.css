@@ -3,7 +3,7 @@
 /* ========================================= */
 
 :root {
-  --cor-principal: #ff69b4; /* Rosa Choque / Pink (Cor do Amor) */
+  --cor-principal: #fd69ff; /* Rosa Choque / Pink (Cor do Amor) */
   --cor-secundaria: #4a148c; /* Roxo Escuro */
   --cor-fundo: #fffafa; /* Branco Suave */
   --cor-texto: #333;
@@ -21,6 +21,10 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+
+html {
+  width: 100vw;
 }
 
 body {
@@ -250,7 +254,7 @@ body {
 
 .card-conversas .numero {
   color: var(--cor-secundaria);
-  font-size: 4rem; /* Maior destaque para o contador */
+  font-size: 3rem; /* Maior destaque para o contador */
 }
 
 .card-musica h3 {
@@ -312,6 +316,7 @@ body {
 
 .contador-numeros {
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
   gap: 20px;
   font-size: 4rem;
